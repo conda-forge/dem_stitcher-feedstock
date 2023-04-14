@@ -1,11 +1,11 @@
-About dem_stitcher
-==================
+About dem_stitcher-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dem_stitcher-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ACCESS-Cloud-Based-InSAR/dem-stitcher
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dem_stitcher-feedstock/blob/main/LICENSE.txt)
 
 Summary: Download and merge DEM tiles
 
