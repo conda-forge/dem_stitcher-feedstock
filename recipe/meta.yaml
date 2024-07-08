@@ -1,5 +1,5 @@
 {% set name = "dem_stitcher" %}
-{% set version = "2.5.6" %}
+{% set version = "2.5.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7cba4805664427ac5ccde232de73d62b9cec1c913a30cba6e6c0821215664b1f
+  sha256: 860df6871b062b578420efe187d9b81195cbecf7f2c5a1aeeea36b0e98756187
 
 build:
   noarch: python
