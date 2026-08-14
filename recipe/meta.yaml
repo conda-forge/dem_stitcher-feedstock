@@ -1,5 +1,5 @@
 {% set name = "dem_stitcher" %}
-{% set version = "2.5.13" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 376cc3ba2d21662c986bc0b01df1e0d90c3bbc6653c96cb77f7ce79d1b69261d
+  sha256: 76e77ea8c8eb95177115cbf3984fa70d8e0167aa9ab887fdbabec499d3accb76
 
 build:
   noarch: python
@@ -28,6 +28,7 @@ requirements:
     - geopandas
     - importlib-metadata
     - numpy
+    - pyarrow
     - pyproj
     - rasterio
     - requests
