@@ -1,13 +1,13 @@
 {% set name = "dem_stitcher" %}
-{% set version = "3.0.0" %}
+{% set version = "3.1.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 76e77ea8c8eb95177115cbf3984fa70d8e0167aa9ab887fdbabec499d3accb76
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: bdc45e22498658c5ed6d5ad805e5455ad8e9d133c0cc0ae13901836e70d45ee9
 
 build:
   noarch: python
