@@ -1,5 +1,5 @@
 {% set name = "dem_stitcher" %}
-{% set version = "3.1.1" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3e98b4b71f754bc3a2422f92b1b6046065222819b31e1fab369c5abb1d097f39
+  sha256: 2f26d1a7ab95eddcdd5b6654ed03e2e55f09796cf5c2db99ed70c36b805e4f8a
 
 build:
   noarch: python
